@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8DFC115DD7C28DAEF23325 /* Pods_SMSNotificationsSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCD026992F60583876917F8 /* Pods_SMSNotificationsSwiftTests.framework */; };
+		74DE4639C297B3DE6A6BE210 /* Pods_SMSNotificationsSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F774CBC75A8FC9F786DE0C91 /* Pods_SMSNotificationsSwiftUITests.framework */; };
+		AA4C84F11D59048300F94089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C84F01D59048300F94089 /* AppDelegate.swift */; };
+		AA4C84F31D59048300F94089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C84F21D59048300F94089 /* ViewController.swift */; };
+		AA4C84F61D59048300F94089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4C84F41D59048300F94089 /* Main.storyboard */; };
+		AA4C84F81D59048300F94089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4C84F71D59048300F94089 /* Assets.xcassets */; };
+		AA4C84FB1D59048300F94089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4C84F91D59048300F94089 /* LaunchScreen.storyboard */; };
+		AA4C85061D59048300F94089 /* SMSNotificationsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C85051D59048300F94089 /* SMSNotificationsSwiftTests.swift */; };
+		AA4C85111D59048300F94089 /* SMSNotificationsSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C85101D59048300F94089 /* SMSNotificationsSwiftUITests.swift */; };
+		AA4C851F1D590AEE00F94089 /* mfpclient.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA4C851E1D590AEE00F94089 /* mfpclient.plist */; };
+		C4A7309D3207898E6D9BABB6 /* Pods_SMSNotificationsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837F5356A0108A74A88CFCDC /* Pods_SMSNotificationsSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA4C85021D59048300F94089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4C84E51D59048300F94089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA4C84EC1D59048300F94089;
+			remoteInfo = SMSNotificationsSwift;
+		};
+		AA4C850D1D59048300F94089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4C84E51D59048300F94089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA4C84EC1D59048300F94089;
+			remoteInfo = SMSNotificationsSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280C97863D024FCB69569609 /* Pods-SMSNotificationsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSNotificationsSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMSNotificationsSwift/Pods-SMSNotificationsSwift.release.xcconfig"; sourceTree = "<group>"; };
+		2BDBB78BD138872601CAE177 /* Pods-SMSNotificationsSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSNotificationsSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMSNotificationsSwiftTests/Pods-SMSNotificationsSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74AC756BD3BCE4024AEC7E24 /* Pods-SMSNotificationsSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSNotificationsSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMSNotificationsSwiftUITests/Pods-SMSNotificationsSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		837F5356A0108A74A88CFCDC /* Pods_SMSNotificationsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMSNotificationsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCD026992F60583876917F8 /* Pods_SMSNotificationsSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMSNotificationsSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4C84ED1D59048300F94089 /* SMSNotificationsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSNotificationsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4C84F01D59048300F94089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA4C84F21D59048300F94089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA4C84F51D59048300F94089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA4C84F71D59048300F94089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA4C84FA1D59048300F94089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA4C84FC1D59048300F94089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4C85011D59048300F94089 /* SMSNotificationsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSNotificationsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4C85051D59048300F94089 /* SMSNotificationsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSNotificationsSwiftTests.swift; sourceTree = "<group>"; };
+		AA4C85071D59048300F94089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4C850C1D59048300F94089 /* SMSNotificationsSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSNotificationsSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4C85101D59048300F94089 /* SMSNotificationsSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSNotificationsSwiftUITests.swift; sourceTree = "<group>"; };
+		AA4C85121D59048300F94089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4C851E1D590AEE00F94089 /* mfpclient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mfpclient.plist; sourceTree = "<group>"; };
+		BDD0965C581A8D3E5C96C46B /* Pods-SMSNotificationsSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSNotificationsSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMSNotificationsSwiftUITests/Pods-SMSNotificationsSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D629F2EF1E5C51DA0043A014 /* SMSNotificationsSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SMSNotificationsSwift.entitlements; sourceTree = "<group>"; };
+		E5536059976908F0AAEBC5F2 /* Pods-SMSNotificationsSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSNotificationsSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMSNotificationsSwift/Pods-SMSNotificationsSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		F71BE403D249920F06A2B6ED /* Pods-SMSNotificationsSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSNotificationsSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMSNotificationsSwiftTests/Pods-SMSNotificationsSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		F774CBC75A8FC9F786DE0C91 /* Pods_SMSNotificationsSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMSNotificationsSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA4C84EA1D59048300F94089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A7309D3207898E6D9BABB6 /* Pods_SMSNotificationsSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C84FE1D59048300F94089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8DFC115DD7C28DAEF23325 /* Pods_SMSNotificationsSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C85091D59048300F94089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DE4639C297B3DE6A6BE210 /* Pods_SMSNotificationsSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286BA48911CBF3F22D67A29D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5536059976908F0AAEBC5F2 /* Pods-SMSNotificationsSwift.debug.xcconfig */,
+				280C97863D024FCB69569609 /* Pods-SMSNotificationsSwift.release.xcconfig */,
+				2BDBB78BD138872601CAE177 /* Pods-SMSNotificationsSwiftTests.debug.xcconfig */,
+				F71BE403D249920F06A2B6ED /* Pods-SMSNotificationsSwiftTests.release.xcconfig */,
+				BDD0965C581A8D3E5C96C46B /* Pods-SMSNotificationsSwiftUITests.debug.xcconfig */,
+				74AC756BD3BCE4024AEC7E24 /* Pods-SMSNotificationsSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52888EC2935E452FF9854DBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				837F5356A0108A74A88CFCDC /* Pods_SMSNotificationsSwift.framework */,
+				8BCD026992F60583876917F8 /* Pods_SMSNotificationsSwiftTests.framework */,
+				F774CBC75A8FC9F786DE0C91 /* Pods_SMSNotificationsSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA4C84E41D59048300F94089 = {
+			isa = PBXGroup;
+			children = (
+				AA4C851E1D590AEE00F94089 /* mfpclient.plist */,
+				AA4C84EF1D59048300F94089 /* SMSNotificationsSwift */,
+				AA4C85041D59048300F94089 /* SMSNotificationsSwiftTests */,
+				AA4C850F1D59048300F94089 /* SMSNotificationsSwiftUITests */,
+				AA4C84EE1D59048300F94089 /* Products */,
+				286BA48911CBF3F22D67A29D /* Pods */,
+				52888EC2935E452FF9854DBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA4C84EE1D59048300F94089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA4C84ED1D59048300F94089 /* SMSNotificationsSwift.app */,
+				AA4C85011D59048300F94089 /* SMSNotificationsSwiftTests.xctest */,
+				AA4C850C1D59048300F94089 /* SMSNotificationsSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA4C84EF1D59048300F94089 /* SMSNotificationsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D629F2EF1E5C51DA0043A014 /* SMSNotificationsSwift.entitlements */,
+				AA4C84F01D59048300F94089 /* AppDelegate.swift */,
+				AA4C84F21D59048300F94089 /* ViewController.swift */,
+				AA4C84F41D59048300F94089 /* Main.storyboard */,
+				AA4C84F71D59048300F94089 /* Assets.xcassets */,
+				AA4C84F91D59048300F94089 /* LaunchScreen.storyboard */,
+				AA4C84FC1D59048300F94089 /* Info.plist */,
+			);
+			path = SMSNotificationsSwift;
+			sourceTree = "<group>";
+		};
+		AA4C85041D59048300F94089 /* SMSNotificationsSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA4C85051D59048300F94089 /* SMSNotificationsSwiftTests.swift */,
+				AA4C85071D59048300F94089 /* Info.plist */,
+			);
+			path = SMSNotificationsSwiftTests;
+			sourceTree = "<group>";
+		};
+		AA4C850F1D59048300F94089 /* SMSNotificationsSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA4C85101D59048300F94089 /* SMSNotificationsSwiftUITests.swift */,
+				AA4C85121D59048300F94089 /* Info.plist */,
+			);
+			path = SMSNotificationsSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA4C84EC1D59048300F94089 /* SMSNotificationsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4C85151D59048300F94089 /* Build configuration list for PBXNativeTarget "SMSNotificationsSwift" */;
+			buildPhases = (
+				CB802DBE21374AF1595DCF47 /* [CP] Check Pods Manifest.lock */,
+				AA4C84E91D59048300F94089 /* Sources */,
+				AA4C84EA1D59048300F94089 /* Frameworks */,
+				AA4C84EB1D59048300F94089 /* Resources */,
+				89F3D8F7F422C4413F78101C /* [CP] Embed Pods Frameworks */,
+				D11B9F4807E584F106938E80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSNotificationsSwift;
+			productName = SMSNotificationsSwift;
+			productReference = AA4C84ED1D59048300F94089 /* SMSNotificationsSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA4C85001D59048300F94089 /* SMSNotificationsSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4C85181D59048300F94089 /* Build configuration list for PBXNativeTarget "SMSNotificationsSwiftTests" */;
+			buildPhases = (
+				F62EE4F3E48FFBDEB311BFD5 /* [CP] Check Pods Manifest.lock */,
+				AA4C84FD1D59048300F94089 /* Sources */,
+				AA4C84FE1D59048300F94089 /* Frameworks */,
+				AA4C84FF1D59048300F94089 /* Resources */,
+				68E93D5AC9C8F79329A57DC6 /* [CP] Embed Pods Frameworks */,
+				F09A18188B6218DEE3E4A49B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA4C85031D59048300F94089 /* PBXTargetDependency */,
+			);
+			name = SMSNotificationsSwiftTests;
+			productName = SMSNotificationsSwiftTests;
+			productReference = AA4C85011D59048300F94089 /* SMSNotificationsSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA4C850B1D59048300F94089 /* SMSNotificationsSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4C851B1D59048300F94089 /* Build configuration list for PBXNativeTarget "SMSNotificationsSwiftUITests" */;
+			buildPhases = (
+				AE553436056126C48FE50109 /* [CP] Check Pods Manifest.lock */,
+				AA4C85081D59048300F94089 /* Sources */,
+				AA4C85091D59048300F94089 /* Frameworks */,
+				AA4C850A1D59048300F94089 /* Resources */,
+				2D02CC8EF2DA88FCE5856CAF /* [CP] Copy Pods Resources */,
+				5E57F7B1318691A9B0C6B4C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA4C850E1D59048300F94089 /* PBXTargetDependency */,
+			);
+			name = SMSNotificationsSwiftUITests;
+			productName = SMSNotificationsSwiftUITests;
+			productReference = AA4C850C1D59048300F94089 /* SMSNotificationsSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA4C84E51D59048300F94089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = IBM;
+				TargetAttributes = {
+					AA4C84EC1D59048300F94089 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TN6YQNGLXP;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					AA4C85001D59048300F94089 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = AA4C84EC1D59048300F94089;
+					};
+					AA4C850B1D59048300F94089 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = AA4C84EC1D59048300F94089;
+					};
+				};
+			};
+			buildConfigurationList = AA4C84E81D59048300F94089 /* Build configuration list for PBXProject "SMSNotificationsSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA4C84E41D59048300F94089;
+			productRefGroup = AA4C84EE1D59048300F94089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA4C84EC1D59048300F94089 /* SMSNotificationsSwift */,
+				AA4C85001D59048300F94089 /* SMSNotificationsSwiftTests */,
+				AA4C850B1D59048300F94089 /* SMSNotificationsSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA4C84EB1D59048300F94089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C84FB1D59048300F94089 /* LaunchScreen.storyboard in Resources */,
+				AA4C84F81D59048300F94089 /* Assets.xcassets in Resources */,
+				AA4C84F61D59048300F94089 /* Main.storyboard in Resources */,
+				AA4C851F1D590AEE00F94089 /* mfpclient.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C84FF1D59048300F94089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C850A1D59048300F94089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D02CC8EF2DA88FCE5856CAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMSNotificationsSwiftUITests/Pods-SMSNotificationsSwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E57F7B1318691A9B0C6B4C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMSNotificationsSwiftUITests/Pods-SMSNotificationsSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E93D5AC9C8F79329A57DC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMSNotificationsSwiftTests/Pods-SMSNotificationsSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F3D8F7F422C4413F78101C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMSNotificationsSwift/Pods-SMSNotificationsSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE553436056126C48FE50109 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB802DBE21374AF1595DCF47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D11B9F4807E584F106938E80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMSNotificationsSwift/Pods-SMSNotificationsSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09A18188B6218DEE3E4A49B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMSNotificationsSwiftTests/Pods-SMSNotificationsSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F62EE4F3E48FFBDEB311BFD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA4C84E91D59048300F94089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C84F31D59048300F94089 /* ViewController.swift in Sources */,
+				AA4C84F11D59048300F94089 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C84FD1D59048300F94089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C85061D59048300F94089 /* SMSNotificationsSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C85081D59048300F94089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C85111D59048300F94089 /* SMSNotificationsSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA4C85031D59048300F94089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA4C84EC1D59048300F94089 /* SMSNotificationsSwift */;
+			targetProxy = AA4C85021D59048300F94089 /* PBXContainerItemProxy */;
+		};
+		AA4C850E1D59048300F94089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA4C84EC1D59048300F94089 /* SMSNotificationsSwift */;
+			targetProxy = AA4C850D1D59048300F94089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA4C84F41D59048300F94089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4C84F51D59048300F94089 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA4C84F91D59048300F94089 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4C84FA1D59048300F94089 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA4C85131D59048300F94089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA4C85141D59048300F94089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA4C85161D59048300F94089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5536059976908F0AAEBC5F2 /* Pods-SMSNotificationsSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SMSNotificationsSwift/SMSNotificationsSwift.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = TN6YQNGLXP;
+				INFOPLIST_FILE = SMSNotificationsSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ibm.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA4C85171D59048300F94089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280C97863D024FCB69569609 /* Pods-SMSNotificationsSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SMSNotificationsSwift/SMSNotificationsSwift.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = TN6YQNGLXP;
+				INFOPLIST_FILE = SMSNotificationsSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ibm.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AA4C85191D59048300F94089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDBB78BD138872601CAE177 /* Pods-SMSNotificationsSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMSNotificationsSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SMSNotificationsSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSNotificationsSwift.app/SMSNotificationsSwift";
+			};
+			name = Debug;
+		};
+		AA4C851A1D59048300F94089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71BE403D249920F06A2B6ED /* Pods-SMSNotificationsSwiftTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMSNotificationsSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SMSNotificationsSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSNotificationsSwift.app/SMSNotificationsSwift";
+			};
+			name = Release;
+		};
+		AA4C851C1D59048300F94089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD0965C581A8D3E5C96C46B /* Pods-SMSNotificationsSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SMSNotificationsSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SMSNotificationsSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SMSNotificationsSwift;
+			};
+			name = Debug;
+		};
+		AA4C851D1D59048300F94089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74AC756BD3BCE4024AEC7E24 /* Pods-SMSNotificationsSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SMSNotificationsSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SMSNotificationsSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SMSNotificationsSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA4C84E81D59048300F94089 /* Build configuration list for PBXProject "SMSNotificationsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4C85131D59048300F94089 /* Debug */,
+				AA4C85141D59048300F94089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4C85151D59048300F94089 /* Build configuration list for PBXNativeTarget "SMSNotificationsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4C85161D59048300F94089 /* Debug */,
+				AA4C85171D59048300F94089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4C85181D59048300F94089 /* Build configuration list for PBXNativeTarget "SMSNotificationsSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4C85191D59048300F94089 /* Debug */,
+				AA4C851A1D59048300F94089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4C851B1D59048300F94089 /* Build configuration list for PBXNativeTarget "SMSNotificationsSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4C851C1D59048300F94089 /* Debug */,
+				AA4C851D1D59048300F94089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA4C84E51D59048300F94089 /* Project object */;
+}
